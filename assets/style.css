@@ -26,10 +26,9 @@ body * {
   line-height: 125%;
 }
 
-
 #app {
   width: fit-content;
-  padding: 5.2rem 3.2rem 10rem;
+  padding: 5.2rem 3.2rem;
 }
 
 header {
@@ -118,4 +117,26 @@ header h1 {
   color: #E1E1E6;
 }
 
+.card ul li strong:hover, .card ul li img:hover, .card h2:hover {
+  transform: scale(1.05);
+}
 
+.card ul li strong, .card ul li img, .card h2 {
+  transition: transform 0.5s;
+}
+
+.card {
+  opacity: 0;
+  animation: appear .3s forwards;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
