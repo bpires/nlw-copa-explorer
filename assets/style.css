@@ -1,0 +1,121 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+body {
+	background: #121214 url("../assets/img/bg.svg") center 965%;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+  line-height: 125%;
+}
+
+
+#app {
+  width: fit-content;
+  padding: 5.2rem 3.2rem 10rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: .8rem;
+  margin-bottom: 6.2rem;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 3rem;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(217, 217, 217, 0.8) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.card {
+  padding: 3.2rem 2.2rem;
+  text-align: center;
+  
+  background-color: #1D1C19;
+  border-radius: 6px;
+  border-bottom: 2px solid #F7DD43;
+}
+
+.card h2 span {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #E1E1E6;
+}
+
+.card h2 {
+  padding: 0.8rem 1.6rem;
+  border: 1px solid #746615;
+  border-radius: 6px; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  width: fit-content;
+  margin-bottom: 5.2rem;
+    
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #F7DD43;
+  text-transform: uppercase;
+}
+
+.card ul {
+  display:flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.card ul li {  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 27rem;
+}
+
+.card ul li + li {
+  padding-top: 2.4rem;
+  border-top: 1px solid #323238;
+}
+
+.card ul li strong {
+  font-weight: 900;
+  font-size: 3.6rem;
+  text-align: center;
+  color: #E1E1E6;
+}
+
+
