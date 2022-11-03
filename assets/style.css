@@ -52,7 +52,7 @@ header h1 {
   text-fill-color: transparent;
 }
 
-main {
+#cards {
   display: flex;
   flex-direction: column;
   align-items: center;
