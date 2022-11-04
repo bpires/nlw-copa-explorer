@@ -11,7 +11,6 @@ function createCard(date, day, games) {
   `
 }
 
-
 function createMatch(player1, player2, time) {
   return `
     <li>
@@ -24,5 +23,8 @@ function createMatch(player1, player2, time) {
 
 document.querySelector('#cards').innerHTML = 
   createCard('24/11', 'segunda', createMatch('brazil', 'cameroon', '08:00') + createMatch('basque country', 'japan', '20:00') + createMatch('basque country', 'japan', '20:00')) +
+  createCard('26/11', 'quarta', createMatch('basque country', 'japan', '20:00') + createMatch('basque country', 'japan', '20:00')) +
+  createCard('28/11', 'sexta', createMatch('basque country', 'japan', '20:00')) +
   createCard('26/11', 'quarta', createMatch('basque country', 'japan', '20:00')) +
-  createCard('28/11', 'sexta', createMatch('basque country', 'japan', '20:00'))
+  createCard('26/11', 'quarta', createMatch('basque country', 'japan', '20:00')) + createCard('24/11', 'segunda', createMatch('brazil', 'cameroon', '08:00')) + createCard('24/11', 'segunda', createMatch('brazil', 'cameroon', '08:00') + createMatch('basque country', 'japan', '20:00') + createMatch('basque country', 'japan', '20:00')) + 
+  createCard('24/11', 'segunda', createMatch('brazil', 'cameroon', '08:00') + createMatch('basque country', 'japan', '20:00') + createMatch('basque country', 'japan', '20:00'))
