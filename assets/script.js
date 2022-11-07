@@ -34,14 +34,14 @@ document.querySelector('#cards').innerHTML =
 
   createCard('25/11', 'sexta', createMatch('morocco', 'croatia', '07:00') + createMatch('germany', 'japan', '10:00') + createMatch('spain', 'costa rica', '13:00') + createMatch('belgium', 'canada', '16:00')) +
 
-  createCard('27/11', 'sábado', createMatch('morocco', 'croatia', '07:00') + createMatch('germany', 'japan', '10:00') + createMatch('spain', 'costa rica', '13:00') + createMatch('belgium', 'canada', '16:00'))
+  createCard('27/11', 'sábado', createMatch('morocco', 'croatia', '07:00') + createMatch('germany', 'japan', '10:00') + createMatch('spain', 'costa rica', '13:00') + createMatch('belgium', 'canada', '16:00')) +
 
-  // createCard('28/11', 'domingo', createMatch('morocco', 'croatia', '07:00') + createMatch('germany', 'japan', '10:00') + createMatch('spain', 'costa rica', '13:00') + createMatch('belgium', 'canada', '16:00')) +
+  createCard('28/11', 'domingo', createMatch('cameroon', 'serbia', '07:00') + createMatch('south korea', 'ghana', '10:00') + createMatch('brazil', 'switzerland', '13:00') + createMatch('portugal', 'uruguay', '16:00')) +
 
-  // createCard('29/11', 'segunda', createMatch('morocco', 'croatia', '07:00') + createMatch('germany', 'japan', '10:00') + createMatch('spain', 'costa rica', '13:00') + createMatch('belgium', 'canada', '16:00')) +
+  createCard('29/11', 'segunda', createMatch('ecuador', 'senegal', '12:00') + createMatch('netherlands', 'qatar', '12:00') + createMatch('iran', 'united states', '16:00') + createMatch('wales', 'england', '16:00')) +
 
-  // createCard('30/11', 'terça', createMatch('morocco', 'croatia', '07:00') + createMatch('germany', 'japan', '10:00') + createMatch('spain', 'costa rica', '13:00') + createMatch('belgium', 'canada', '16:00')) +
+  createCard('30/11', 'terça', createMatch('tunisia', 'france', '12:00') + createMatch('australia', 'denmark', '12:00') + createMatch('poland', 'argentina', '16:00') + createMatch('saudi arabia', 'mexico', '16:00')) +
 
-  // createCard('01/12', 'quarta', createMatch('morocco', 'croatia', '07:00') + createMatch('germany', 'japan', '10:00') + createMatch('spain', 'costa rica', '13:00') + createMatch('belgium', 'canada', '16:00')) +
+  createCard('01/12', 'quarta', createMatch('croatia', 'belgium', '12:00') + createMatch('canada', 'morocco', '12:00') + createMatch('japan', 'spain', '16:00') + createMatch('costa rica', 'germany', '16:00')) +
 
-  // createCard('02/12', 'quinta', createMatch('morocco', 'croatia', '07:00') + createMatch('germany', 'japan', '10:00') + createMatch('spain', 'costa rica', '13:00') + createMatch('belgium', 'canada', '16:00'))
+  createCard('02/12', 'quinta', createMatch('south korea', 'portugal', '12:00') + createMatch('ghana', 'uruguay', '12:00') + createMatch('serbia', 'switzerland', '16:00') + createMatch('cameroon', 'brazil', '16:00'))
